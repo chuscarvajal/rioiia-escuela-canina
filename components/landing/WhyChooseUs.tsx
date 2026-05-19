@@ -11,7 +11,7 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section id="nosotros" className="py-16 lg:py-24 bg-[#f9f9f9] border-t border-[#e0e0e0]">
+    <section id="por-que-elegirnos" className="py-16 lg:py-24 bg-[#f9f9f9] border-t border-[#e0e0e0]">
       <div className="container">
         <h2 className="section-title">Por Qué Elegirnos</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">

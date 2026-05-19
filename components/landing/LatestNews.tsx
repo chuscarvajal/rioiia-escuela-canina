@@ -14,7 +14,7 @@ const posts = [
 
 export default function LatestNews() {
   return (
-    <section id="galería" className="py-16 lg:py-24 bg-white border-t border-[#e0e0e0]">
+    <section className="py-16 lg:py-24 bg-white border-t border-[#e0e0e0]">
       <div className="container">
         <h2 className="section-title">Últimas Noticias</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-1">
