@@ -35,21 +35,11 @@ export default function Reviews() {
   return (
     <section className="py-16 lg:py-24 bg-[#2b2b2b]">
       <div className="container">
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-12">
-          <div>
-            <h2 className="text-white font-black text-2xl sm:text-3xl uppercase tracking-[0.1em]">
-              Reseñas de Google
-            </h2>
-            <p className="text-white/50 text-sm mt-2">Lo que dicen nuestros clientes</p>
-          </div>
-          <a
-            href="https://www.google.com/maps/search/Rioiia+Escuela+Canina+La+Rioja"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="self-start md:self-auto flex items-center gap-2 text-white/60 text-xs uppercase tracking-widest border border-white/20 px-5 py-2.5 hover:bg-white hover:text-[#2b2b2b] transition-colors"
-          >
-            Ver todas en Google
-          </a>
+        <div className="mb-12">
+          <h2 className="text-white font-black text-2xl sm:text-3xl uppercase tracking-[0.1em]">
+            Testimonios
+          </h2>
+          <p className="text-white/50 text-sm mt-2">Lo que dicen nuestros clientes</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -63,7 +53,7 @@ export default function Reviews() {
                 </div>
                 <div>
                   <p className="text-white text-xs font-semibold">{r.name}</p>
-                  <p className="text-white/40 text-[10px] uppercase tracking-widest">Google</p>
+                  <p className="text-white/40 text-[10px] uppercase tracking-widest">Cliente</p>
                 </div>
               </div>
             </div>
