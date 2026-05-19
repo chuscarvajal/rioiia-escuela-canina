@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@700;800;900&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Open Sans', sans-serif; color: #444; background: #fff; overflow-x: hidden; }
+
+@layer components {
+  .btn-outline-white {
+    @apply inline-block border border-white text-white text-xs font-semibold uppercase tracking-[0.18em] px-8 py-3 hover:bg-white hover:text-[#2b2b2b] transition-colors duration-300;
+  }
+  .btn-outline-dark {
+    @apply inline-block border border-[#2b2b2b] text-[#2b2b2b] text-xs font-semibold uppercase tracking-[0.18em] px-6 py-2.5 hover:bg-[#2b2b2b] hover:text-white transition-colors duration-300;
+  }
+  .section-title {
+    @apply text-[#2b2b2b] font-bold uppercase tracking-[0.12em] text-2xl lg:text-3xl text-center mb-10;
+  }
+}
